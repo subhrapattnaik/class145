@@ -1,3 +1,15 @@
+We will be using Aframe.io to create web-based 3D, VR (Virtual Reality), and AR(Augmented Reality) applications. 
+A-Frame builds on the HTML, CSS, and THREE.js library to create AR/VR apps.
+---------------------------------------------------------
+
+Virtual reality (often just called VR) is the name for computer technology that makes people feel like they are somewhere else. It uses software to produce images, sounds, and/or other sensations to create a different place so that a user feels like they are really part of this other place. That other place can be a real place (to take a tour in another country, for instance) or imaginary (playing a game).
+
+---------------------------------------------
+A-Frame is a 3D framework for the web.Using A-frame, you can create regular HTML websites with special 3D powers.
+
+--------------------------------------------------------------------
+
+
 Augmented Reality (AR):- AR adds digital elements to a live view often by using the camera on a smartphone. Examples of augmented reality experiences include Snapchat lenses and the game Pokemon Go.
 
 Virutal Reality (VR):- VR implies a complete immersion experience that shuts out the physical world. Using VR devices such as HTC Vive, Oculus Rift or Google Cardboard, users can be transported into a number of real-world and imagined environments such as the middle of a squawking penguin colony or even the back of a dragon.
