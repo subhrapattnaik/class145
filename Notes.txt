@@ -10,3 +10,32 @@ The pattern of a 3D webpage is also very similar. It has two parts as well. The 
 The meta tag is used by search engines to describe your page. Script tag loads the aframe library which does all the cool 3D stuff. Without this script, the webpage will not be able to render 3D Objects.
 
 The second is the Body. This is where we write the content for our website. In this example, we are creating a scene using the  tag and inside the scene, we are creating basic blocks or shapes called “primitives”. 
+-------------------------------------------------------
+Example:
+<head>
+<title>...</title> : heading for the website
+<meta> : used by search engines to describe your page
+<script>...</script> : loads the aframe library
+
+<body>
+<a-scene> : creating the 3D scene
+<a-box>...</a-box> :  "primitive" box shape
+<a-sphere>...</a-sphere> : "primitive" sphere shape
+<a-cylinder>...</a-cylinder> : "primitive" cylinder shape
+</a-scene>
+-----------------------------------------------------------------------------
+<a-box position = "1    1.5   -3"
+             
+       rotation = "0     45    0"
+       color = "#4CC3D9">
+</a-box>
+
+For example,  has:
+position attribute: to specify x,y,z coordinates of the box in the scene,
+rotation attribute: to specify the angle of rotation on x,y, z-axis, and 
+color attribute: to specify the color of the box.
+------------------------------------------------------------------
+
+We can start with a few simple challenges like exchanging the position of two shapes, bringing the sphere in front, and place the box behind. We can explore by changing the values of rotation, scale, etc., for the primitives.
+
+add different 3D shapes called "primitives" to the scene and set their different attributes to achieve different settings and placements of these shapes.
