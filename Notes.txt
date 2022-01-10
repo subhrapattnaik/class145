@@ -1,0 +1,12 @@
+A-Frame is. It is basically a 3D framework for the web, similar to how HTML is a 2D framework. Using A-frame, you can create regular HTML websites with special 3D powers.
+
+
+
+A-Frame is. It is basically a 3D framework for the web,Using A-frame, you can create regular HTML websites with special 3D powers.
+
+
+The pattern of a 3D webpage is also very similar. It has two parts as well. The first is the Head. It has a title where we define the heading for the website.
+
+The meta tag is used by search engines to describe your page. Script tag loads the aframe library which does all the cool 3D stuff. Without this script, the webpage will not be able to render 3D Objects.
+
+The second is the Body. This is where we write the content for our website. In this example, we are creating a scene using the  tag and inside the scene, we are creating basic blocks or shapes called “primitives”. 
